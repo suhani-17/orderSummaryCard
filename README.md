@@ -10,7 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-    **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,11 +27,11 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use css grid property, about scalable vector graphics (SVG). learnt the use of positon property like when should we use absolute or relative and adjust div properly.
+I learned how to use css grid property, about scalable vector graphics (SVG). learnt the use of positon property like when should we use absolute or relative and adjust elements accordingly.
 
 ### Continued development
 
-I learned the things i mentioned above but i'm not quite comfortable with them so i want to focus on refining above them.
+I learned the things i mentioned above but i'm not quite comfortable with them so i want to focus on refining them.
 
 ### Useful resources
 
