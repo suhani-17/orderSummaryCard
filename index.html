@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ..fonts.. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- css section -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <img
+      class="backgroundImage"
+      src="images/pattern-background-desktop.svg"
+      alt="backgroundImage"
+    />
+
+    <section class="card">
+      <div class="grid-container">
+        <div>
+          <img
+            class="card-image"
+            src="images/backGroundImage.svg"
+            alt="music-image"
+          />
+        </div>
+
+        <div>
+          <h1>Order Summary</h1>
+
+          <p class="card-text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+
+          <div class="button-1">
+            <button class="price-button">
+              <table>
+                <tr>
+                  <td>
+                    <img
+                      class="music-icon"
+                      src="images/icon-music.svg"
+                      alt="music-icon"
+                    />
+                  </td>
+                  <td>
+                    <p class="button1Text">Annual Plans</p>
+                    <p class="button1Price">$59.99/year</p>
+                  </td>
+                  <td><a href="#" class="button1Tag"> Change </a></td>
+                </tr>
+              </table>
+            </button>
+            <br />
+          </div>
+
+          <div class="button-2">
+            <button class="payment-button">Proceed to Payment</button>
+          </div>
+
+          <div class="button-3">
+            <button class="cancelButton">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

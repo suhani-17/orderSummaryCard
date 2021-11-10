@@ -1,0 +1,116 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  margin: 0px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.backgroundImage {
+  position: absolute;
+  width: 100%;
+  bottom: 300px;
+}
+
+/* card section */
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.card-heading {
+  margin: 0px;
+}
+.card-image {
+  width: 350px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 0px;
+}
+.card {
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  left: 500px;
+  width: 350px;
+  background-color: white;
+  border-radius: 12px;
+}
+.card-text {
+  position: relative;
+  bottom: 20px;
+  margin: 3% 0%;
+  padding: 7% 10%;
+  color: grey;
+}
+/* button-1 */
+.button-1 {
+  position: relative;
+  bottom: 20px;
+}
+
+.price-button {
+  border: none;
+  height: 80px;
+  width: 280px;
+  border-radius: 12px;
+}
+
+.button1Text {
+  position: relative;
+  margin: 5px 5px 1px 10px;
+  bottom: 8px;
+  right: 5px;
+  text-align: left;
+  font-weight: 900;
+}
+.button1Tag {
+  position: relative;
+  left: 30px;
+  font-weight: 900;
+  bottom: 10px;
+  left: 10px;
+  color: blue;
+  text-decoration: none;
+}
+.button1Tag:hover {
+  color: darkblue;
+}
+.button1Price {
+  position: relative;
+  bottom: 8px;
+  margin: 0px;
+  right: 10px;
+  color: grey;
+}
+.music-icon {
+  position: relative;
+  top: 3px;
+  margin: 2px;
+}
+
+/* button-2*/
+.payment-button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  width: 280px;
+  height: 40px;
+  border-radius: 12px;
+  font-weight: 900;
+}
+.payment-button:hover {
+  background-color: hsl(228, 86%, 17%);
+}
+/* button-3*/
+.cancelButton {
+  background-color: white;
+  border: none;
+  color: gray;
+  width: 280px;
+  height: 30px;
+  border-radius: 12px;
+  font-weight: 900;
+  margin: 10px;
+}
+.cancelButton:hover {
+  background-color: rgb(53, 49, 49);
+  color: white;
+}
